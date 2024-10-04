@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テニスサークル</title>
+    <link rel="stylesheet" href="テニスサークル.css">
+</head>
+
+<body>
+    <header>
+        <h1>テニスサークル「スマッシュ」</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">サークルについて</a></li>
+                <li><a href="#schedule">活動スケジュール</a></li>
+                <li><a href="#members">メンバー紹介</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>サークルについて</h2>
+        <p>テニスサークル「スマッシュ」は、毎週土曜日に活動しています。初心者から経験者まで誰でも参加可能です！一緒にテニスを楽しみましょう！</p>
+    </section>
+
+    <section id="schedule">
+        <h2>活動スケジュール</h2>
+        <ul id="event-list">
+            <li>10月7日: 秋のテニス大会</li>
+            <li>10月14日: レッスン日</li>
+            <li>10月21日: 練習試合</li>
+        </ul>
+        <button id="add-event-btn">イベントを追加</button>
+    </section>
+
+    <section id="members">
+        <h2>メンバー紹介</h2>
+        <div class="member">
+            <img src="member1.jpg" alt="坂田">
+            <p>坂田 - 代表</p>
+        </div>
+        <div class="member">
+            <img src="member2.jpg" alt="藪">
+            <p>藪 - 副代表</p>
+        </div>
+        <!-- 他のメンバーを追加 -->
+    </section>
+
+    <section id="gallery">
+        <h2>ギャラリー</h2>
+        <div class="gallery-item">
+            <img src="tennis1.jpg" alt="テニスイベント1">
+        </div>
+        <div class="gallery-item">
+            <img src="tennis2.jpg" alt="テニスイベント2">
+        </div>
+        <!-- 他のギャラリー画像を追加 -->
+    </section>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form id="contact-form">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 テニスサークル「スマッシュ」</p>
+    </footer>
+
+    <script src="テニスサークル.js"></script>
+</body>
+
+</html>
